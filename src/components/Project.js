@@ -1,8 +1,8 @@
 import React from "react";
 import BigLogo from '../images/logo.svg';
-import sample_1 from '../images/Canvas_drawings1.jpg';
-import sample_2 from '../images/Canvas_drawings2.jpg';
-import sample_3 from '../images/Canvas_drawings3.jpg';
+import sample_1 from '../images/cs-screenshot-1.png';
+import sample_2 from '../images/cs-screenshot-2.png';
+import sample_3 from '../images/cs-screenshot-3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
