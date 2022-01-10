@@ -1,38 +1,243 @@
-.App {
+div.navbar ul {
+margin-right: 30px;
+}
+
+div.navbar ul li {
+  display: inline;
+  margin-left:10px;
+  padding: 4px;
+}
+
+li {
+  display: inline;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+li:hover {
+  color:black;
+}
+
+.navbar li:hover, .footer-button:hover{
+  background-color: rgba(137, 199, 130, 0.8);
+  color: black;
+  box-shadow: 2px 2px 15px white, -2px -2px 15px white, 2px -2px 15px white, -2px 2px 15px white;
+  border-radius: 5px;
+}
+li.tool-card:hover{
+  color: rgba(137, 199, 130, 0.8);
+}
+
+.color-button{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #89c782;
+  color: black;
+}
+.color-button:hover{
+  
+  box-shadow: 2px 2px 15px rgba(137, 199, 130, 0.8), -2px -2px 15px rgba(137, 199, 130, 0.8), 2px -2px 15px rgba(137, 199, 130, 0.8), -2px 2px 15px rgba(137, 199, 130, 0.8);
+  color:black
+}
+
+#logo {
+  height: 60px;
+  padding-left: 20px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient( black , #89c782 ) ;
+  color: white;
+  font-weight: 700;
+}
+
+.project-content {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+}
+
+.big-logo {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#developer{
+  padding-bottom: 30px;
+}
+
+.developer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.developer-h2{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.developer-content h2{
+  margin-top: 0;
+}
+
+.developer-content {
+  line-height: 35px;
+}
+
+#footer {
+  background-image: linear-gradient(#89c782  , black  );
+  height: 350px;
+}
+
+.footer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.footer-img {
+  margin-top: 20px;
+}
+
+.footer-img, .footer-button-ul {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+}
+
+.contact-button-ul {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.color-button-ul{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.footer-container ul {
+  padding-left: 0;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-button {
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer-icons-ul {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-icons-ul li {
+  padding-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-icons-ul li:hover {
+  color: rgba(137, 199, 130, 0.8)
+}
+
+.project-samples{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+}
+
+.sample {
+  padding: 20px;
+}
+
+.samples-p {
+  padding-top: 30px;
+}
+
+.devIcons{
+  margin-top: 40px;
+  width: 60px
+}
+
+.tool-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+}
+
+.icons-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+h2{
+  padding-top: 25px;
+}
+
+.video {
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-content-video {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+
 }
