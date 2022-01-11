@@ -15,7 +15,7 @@ function Project(){
         </div>
         <div className="project-content">
             <h2>About this Project</h2>
-            <p>Calabasas Speech is a website for a made-up speech and language clinic. The website includes information about the clinic's approach to speech and language therapy, their staff and their specialties, as well as some free resources. Since I am a licensed Speech Language Pathologist, the content and information in the Free Resources page is accurate - feel free to read through and use it! </p>
+            <p>Calabasas Speech is a website for a made-up speech and language clinic. The website includes information about the clinic's approach to speech and language therapy, their staff and their specialties, as well as some free resources. I am a licensed Speech Language Pathologist, and therefore, the content and information in the Free Resources page is accurate - feel free to read through and use it! </p>
             <ul className="color-button-ul">
                 <li className="color-button" > 
                     <a href="https://calabasas-speech-react.vercel.app/">Visit the Website</a>
