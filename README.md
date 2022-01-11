@@ -21,7 +21,7 @@ This web app was made using:
 - HTML
 - CSS
 
-##Install Instructions
+## Install Instructions
 
 Clone the project locally. First, install all dependencies with
 ```
