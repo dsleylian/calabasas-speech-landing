@@ -3,6 +3,8 @@ import BigLogo from '../images/logo.svg';
 import sample_1 from '../images/cs-screenshot-1.png';
 import sample_2 from '../images/cs-screenshot-2.png';
 import sample_3 from '../images/cs-screenshot-3.png';
+import recognition_1 from '../images/Nucamp-screenshot.png'
+import recognition_2 from '../images/nucamp-honors-grad.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
@@ -41,16 +43,24 @@ function Project(){
                 </li>
             </ul>
             <h2>Screenshots</h2>
+            <div className="project-samples">
+                <img className="sample" height="200px" src={sample_1} alt="sample" />    
+                <img className="sample" height="200px" src={sample_2} alt="sample" />    
+                <img className="sample" height="200px" src={sample_3} alt="sample" />    
+            </div>
+            <h2>Video Walkthrough</h2>
+            <div className="project-content-video">
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5etC6o95CzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
+            </div>
+            <h2>Recognition</h2> 
+            <p>This project was <a className="nucamp-grad-link" href="https://www.nucamp.co/graduates/projects" alt="nucamp graduate projects">showcased in my Nucamp graduation</a>, and qualified me to graduate with Honors.</p> 
+            <div className="recognition-content">
+                <img className="recognition-image" src={recognition_1} alt="Nucamp screenshot" height="300px"/>
+                <img src={recognition_2} alt="Nucamp graduation" height="300px"/>
+            </div>
         </div>
-        <div className="project-samples">
-            <img className="sample" height="200px" src={sample_1} alt="sample" />    
-            <img className="sample" height="200px" src={sample_2} alt="sample" />    
-            <img className="sample" height="200px" src={sample_3} alt="sample" />    
-        </div>
-        <div className="project-content-video">
-        <h2>Video Walkthrough</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5etC6o95CzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
-        </div>
+        
     </div>
   )
 }

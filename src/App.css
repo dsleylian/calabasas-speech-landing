@@ -102,6 +102,15 @@ a, a:visited, a:hover, a:active {
   margin-right: auto;
 }
 
+.recognition-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+
+  
+}
+
 .developer-content h2{
   margin-top: 0;
 }
@@ -240,6 +249,14 @@ h2{
   margin-left: auto;
   margin-right: auto;
   line-height: 35px;
+}
+
+a.nucamp-grad-link{
+  color: #89c782;
+
+}
+a.nucamp-grad-link:hover{
+  text-decoration: underline;
 
 }
 
@@ -330,5 +347,14 @@ h2{
 
   .navbar-links{
     padding: 0;
+  }
+
+  .recognition-image{
+    height: 200px;
+  }
+
+  .recognition-content{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
