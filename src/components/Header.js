@@ -7,12 +7,13 @@ function Header() {
     <div>
       <div className="navbar">
         <a href="/"><img alt="Calabasas Speech logo" id="logo"src={logo}></img></a>
-        <ul >
+        <ul className="navbar-links">
           <li>
               <a href="/">Home</a>
           </li>
           <li>
-              <a href="#developer">About the Developer</a>
+            <a className="about-large-screen"href="#developer">About the Developer</a>
+            <a className="about-small-screen" href="#developer">About</a>
           </li>
           <li className="button" > 
               <a href="https://calabasas-speech-react.vercel.app/">Website</a>

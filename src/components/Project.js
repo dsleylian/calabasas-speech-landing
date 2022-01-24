@@ -11,7 +11,7 @@ function Project(){
   return(
     <div id="home" className="project-container">
         <div className="big-logo">
-            <img height="300px" src={BigLogo} alt="Calabasas Speech large logo" />
+            <img className="big-logo-img" height="300px" src={BigLogo} alt="Calabasas Speech large logo" />
         </div>
         <div className="project-content">
             <h2>About this Project</h2>

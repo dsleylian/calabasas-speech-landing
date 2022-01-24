@@ -176,7 +176,8 @@ div.footer-container ul {
 }
 
 .footer-icons-ul li {
-  padding-right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .footer-icons-ul li:hover {
@@ -240,4 +241,94 @@ h2{
   margin-right: auto;
   line-height: 35px;
 
+}
+
+@media only screen and (max-width: 768px) {
+
+  #footer {
+    width: 100%;
+  }
+  
+  .project-content {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-content-video {
+    width: 300px;
+  }
+
+  iframe {
+    width: 300px;
+    height: 160px;
+  }
+
+  .developer-h2{
+    width: 290px;
+  }
+
+  .developer-container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    line-height: 65px;
+    margin-top: 140px;
+  }
+
+  .footer-container {
+    width: 100%;
+    
+  }
+
+  .big-logo {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  .big-logo-img {
+    height: 160px ;
+  }
+
+  .project-samples{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .tool-card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    width:100%;
+  }
+
+  .about-large-screen{
+    display: none;
+  }
+
+  .about-small-screen{
+    display: inline-block;
+  }
+  #logo{
+    height: 30px;
+    padding: 0;
+  }
+
+  .navbar {
+    justify-content: left;
+  }
+
+  .navbar-links{
+    padding: 0;
+  }
 }
