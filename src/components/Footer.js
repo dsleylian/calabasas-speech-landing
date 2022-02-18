@@ -36,7 +36,7 @@ function Footer() {
                     </a> 
                 </li>
                 <li> 
-                    <a target="_blank" href="https://github.com/dsleylian/paint" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} size="2x" className="footer-icons"/>  </a>
+                    <a target="_blank" href="https://github.com/dsleylian/calabasas-speech-react" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} size="2x" className="footer-icons"/>  </a>
                 </li>
                 <li> 
                     <a target="_blank" href="https://www.linkedin.com/in/darya-leylian-a1a62057/" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} size="2x" className="footer-icons" />  </a>
