@@ -2,7 +2,6 @@ import React from "react";
 import BigLogo from '../images/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
-import DLSvg from '../images/DarleyPaintD.svg';
 
 function Footer() {
 
