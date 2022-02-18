@@ -204,6 +204,9 @@ div.footer-container ul {
 
 .sample {
   padding: 20px;
+  border: 1px solid lightgrey;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .samples-p {
