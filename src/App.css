@@ -395,4 +395,12 @@ a.nucamp-grad-link:hover{
     margin-left: -5px;
     margin-right: -5px;
   }
+
+  .sample {
+    margin-bottom: 10px;
+  }
+
+  .project-samples{
+    padding-bottom: 0px;
+  }
 }
