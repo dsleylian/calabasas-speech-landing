@@ -1,5 +1,6 @@
 import React from "react";
 import DL from '../images/DL-medium.jpg';
+import DaryaLogo from '../images/DarleyPaintD.png';
 
 function Developer() {
 
@@ -16,11 +17,15 @@ function Developer() {
                 <img height="200" src={DL} alt="Darya Leylian" />
             </div>
         </div>
+        <div className="darya-logo">
+        <a  href="http://www.daryaleylian.com" target="_blank" rel="noreferrer"><img src={DaryaLogo} alt="Darya Leylian Logo" height="100px" /> </a>
+        </div>
         <ul className="contact-button-ul">
             <li className="color-button" > 
                 <a href="mailto:@daryaleylian@gmail.com">Contact Me</a>
             </li>
         </ul>
+       
     </div>
   )
 }

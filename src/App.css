@@ -34,7 +34,7 @@ li.tool-card:hover{
 .color-button{
   border-radius: 5px;
   padding: 10px;
-  background-color: #89c782;
+  background-color: #bff3bb;
   color: black;
 }
 .color-button:hover{
@@ -252,12 +252,42 @@ h2{
 }
 
 a.nucamp-grad-link{
-  color: #89c782;
+  color: #6bc561;
 
 }
 a.nucamp-grad-link:hover{
   text-decoration: underline;
+}
 
+.darya-logo {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+.cls-1{
+  fill:#fff;
+  fill-rule:evenodd;
+}
+.cls-1:hover{
+  fill:rgba(137, 199, 130, 0.8);
+}
+
+.logo-for-hover{
+  height: 45px;
+  margin-bottom: -10px;
+  margin-right:0px;
+}
+
+.logo-for-hover-mail{
+  height: 40px;
+  margin-bottom: -8px;
+}
+
+.logo-for-hover-mail:hover{
+  fill: rgba(137, 199, 130, 0.8);
 }
 
 @media only screen and (max-width: 768px) {
@@ -356,5 +386,10 @@ a.nucamp-grad-link:hover{
   .recognition-content{
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .footer-icons {
+    margin-left: -5px;
+    margin-right: -5px;
   }
 }
