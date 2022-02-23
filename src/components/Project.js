@@ -54,7 +54,7 @@ function Project(){
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/5etC6o95CzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
             </div>
             <h2>Recognition</h2> 
-            <p>This project was <a className="nucamp-grad-link" href="https://www.nucamp.co/graduates/projects" alt="nucamp graduate projects">showcased in my Nucamp graduation</a>, and qualified me to graduate with Honors.</p> 
+            <p>This project was <a className="nucamp-grad-link" href="https://www.nucamp.co/graduates/projects" target="_blank" rel="noreferrer" alt="nucamp graduate projects">showcased in my Nucamp graduation</a>, and qualified me to graduate with Honors. I was also mentioned in <a className="nucamp-grad-link" href="https://www.nucamp.co/blog/project-spotlight-darya-leylian" target="_blank" rel="noreferrer" >this article,</a> showcasing my project.</p> 
             <div className="recognition-content">
                 <img className="recognition-image" src={recognition_1} alt="Nucamp screenshot" height="300px"/>
                 <img src={recognition_2} alt="Nucamp graduation" height="300px"/>
