@@ -84,6 +84,7 @@ a, a:visited, a:hover, a:active {
 }
 
 #developer{
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -291,6 +292,10 @@ a.nucamp-grad-link:hover{
 
 .logo-for-hover-mail:hover{
   fill: rgba(137, 199, 130, 0.8);
+}
+
+.about-small-screen{
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
